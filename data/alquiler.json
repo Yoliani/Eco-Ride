@@ -1,0 +1,32 @@
+{
+    "nombreApp" : "EcoRide",
+    "bicicletas" : [
+        {
+            "nombre" : "Bicicleta MTB GW PIRANHA 7.3 – 9 vel",
+            "marca": "GW",
+            "tipo":"Bicicletas de Montaña Hardtail",
+            "precio_alquiler" : "190.000",
+            "precio_compra" : "190.000",
+            "disponibilidad": "Esta disponible",
+            "imagen": "https://menorpago.com.co/wp-content/uploads/2020/04/bicicleta-gw-piranha-275-grupo-shimano-altus-9-vel-hidrulico-i.jpg"
+        },
+        {
+            "nombre" : "Bicicleta MTB GW PIRANHA 7.3 – 9 vel",
+            "marca": "GW",
+            "tipo":"Bicicletas de Montaña Hardtail",
+            "precio_alquiler" : "190.000",
+            "precio_compra" : "190.000",
+            "disponibilidad": "Esta disponible",
+            "imagen": "https://menorpago.com.co/wp-content/uploads/2020/04/bicicleta-gw-piranha-275-grupo-shimano-altus-9-vel-hidrulico-i.jpg"
+        },
+        {
+            "nombre" : "Bicicleta MTB GW PIRANHA 7.3 – 9 vel",
+            "marca": "GW",
+            "tipo":"Bicicletas de Montaña Hardtail",
+            "precio_alquiler" : "190.000",
+            "precio_compra" : "190.000",
+            "disponibilidad": "Esta disponible",
+            "imagen": "https://menorpago.com.co/wp-content/uploads/2020/04/bicicleta-gw-piranha-275-grupo-shimano-altus-9-vel-hidrulico-i.jpg"
+        }
+    ]
+}

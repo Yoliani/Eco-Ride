@@ -1,0 +1,19 @@
+{
+    "nombreApp" : "EcoRide",
+    "tours" : [
+        {
+            "nombre" : "Ruta de las mulas",
+            "precio" : "280.000",
+            "disponibilidad": "Esta disponible",
+            "descripcion": "Si eres de esos ciclistas que quieren una aventura épica, caminos remotos, mezclarte con la cultura local y vivir una buena rodada que tenga descensos agresivos y a la vez ascensos y rodadas exigentes, este es el mountain bike tour perfecto. Vamos a conocer en dos días las mejores travesías de all mountain alrededor de la montañosa ciudad colombiana de Manizales.",
+            "imagen": "https://trailhunters.co/wp-content/uploads/2019/10/Ruta-de-las-mulas-2.jpg"
+        },
+        {
+            "nombre" : "Ruta de las mulas",
+            "precio" : "280.000",
+            "disponibilidad": "Esta disponible",
+            "descripcion": "Si eres de esos ciclistas que quieren una aventura épica, caminos remotos, mezclarte con la cultura local y vivir una buena rodada que tenga descensos agresivos y a la vez ascensos y rodadas exigentes, este es el mountain bike tour perfecto. Vamos a conocer en dos días las mejores travesías de all mountain alrededor de la montañosa ciudad colombiana de Manizales.",
+            "imagen": "https://trailhunters.co/wp-content/uploads/2019/10/Ruta-de-las-mulas-2.jpg"
+        }
+    ]
+}
