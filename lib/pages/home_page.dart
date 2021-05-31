@@ -1,9 +1,11 @@
 import 'package:eco_ride/providers/home_provider.dart';
 import 'package:eco_ride/providers/tour_provider.dart';
+import 'package:eco_ride/widgets/menu.dart';
 import 'package:flutter/material.dart';
 
 class HomePage extends StatelessWidget {
   HomePage({Key key}) : super(key: key);
+
   final _style = new TextStyle(fontSize: 18);
   GlobalKey<ScaffoldState> _scaffoldKey = GlobalKey<ScaffoldState>();
   @override
@@ -11,30 +13,10 @@ class HomePage extends StatelessWidget {
     return DefaultTabController(
       length: 3,
       child: Scaffold(
-          appBar: AppBar(
-            actions: [],
-            bottom: PreferredSize(
-                preferredSize: Size(40, 40),
-                child: Container(
-                  child: TabBar(
-                    tabs: [
-                      Text(
-                        'Promociones',
-                        style: _style,
-                      ),
-                      Text(
-                        'Bicicletas',
-                        style: _style,
-                      ),
-                      Text(
-                        'Tours',
-                        style: _style,
-                      ),
-                    ],
-                  ),
-                )),
-          ),
           key: _scaffoldKey,
+          appBar: appBarM(() {
+            _scaffoldKey.currentState.openDrawer();
+          }),
           backgroundColor: Colors.white,
           drawer: Menu(),
           body: Container(
@@ -44,6 +26,65 @@ class HomePage extends StatelessWidget {
                 Promociones(),
                 Promociones(),
                 Tours(),
+              ],
+            ),
+          )),
+    );
+  }
+
+  Widget appBarM(VoidCallback voidCallback) {
+    return AppBar(
+      automaticallyImplyLeading: false,
+      centerTitle: true,
+      title: Container(
+          alignment: Alignment.center,
+          decoration: BoxDecoration(
+              color: Colors.white, borderRadius: BorderRadius.circular(7)),
+          child: Row(
+            crossAxisAlignment: CrossAxisAlignment.center,
+            children: [
+              Expanded(
+                child: TextField(
+                    decoration: InputDecoration(
+                  border: InputBorder.none,
+                  prefixIcon: IconButton(
+                      icon: Icon(Icons.menu, color: Colors.black),
+                      onPressed: voidCallback),
+                )),
+              ),
+              Padding(
+                padding: const EdgeInsets.only(right: 10),
+                child: Row(
+                  children: [
+                    IconButton(
+                        icon: Icon(Icons.more_vert, color: Colors.black),
+                        onPressed: () {}),
+                    CircleAvatar(
+                        radius: 18,
+                        backgroundImage: NetworkImage(
+                            "https://dam.esquirelat.com/wp-content/uploads/2020/07/STANLEE.jpg"))
+                  ],
+                ),
+              )
+            ],
+          )),
+      bottom: PreferredSize(
+          preferredSize: Size(40, 40),
+          child: Container(
+            child: TabBar(
+              tabs: [
+                Text(
+                  'Promociones',
+                  style: _style,
+                ),
+                Text(
+                  'Bicicletas',
+                  style: _style,
+                ),
+                Text(
+                  'Tours',
+                  style: _style,
+                ),
               ],
             ),
           )),
@@ -189,63 +230,5 @@ class Tours extends StatelessWidget {
     });
 
     return opciones;
-  }
-}
-
-class Menu extends StatelessWidget {
-  const Menu({
-    Key key,
-  }) : super(key: key);
-
-  @override
-  Widget build(BuildContext context) {
-    return Drawer(
-      child: ListView(
-        padding: EdgeInsets.zero,
-        children: [
-          DrawerHeader(
-            decoration: BoxDecoration(
-              color: Colors.green,
-            ),
-            margin: EdgeInsets.only(right: 0),
-            child: Column(children: [
-              Text(
-                'Menú',
-                style: TextStyle(
-                  color: Colors.white,
-                  fontSize: 30,
-                ),
-              ),
-            ]),
-          ),
-          ListTile(
-            leading: Icon(Icons.money),
-            title: Text('Productos'),
-            onTap: () {
-              Navigator.popAndPushNamed(context, 'home');
-            },
-          ),
-          ListTile(
-            leading: Icon(Icons.shopping_bag),
-            title: Text('Pedidos'),
-          ),
-          ListTile(
-            leading: Icon(Icons.account_circle),
-            title: Text('Perfil'),
-          ),
-          ListTile(
-            leading: Icon(Icons.settings),
-            title: Text('Configuración'),
-          ),
-          ListTile(
-            leading: Icon(Icons.login),
-            title: Text('Cerrar sesion'),
-            onTap: () {
-              Navigator.pushNamed(context, 'login');
-            },
-          ),
-        ],
-      ),
-    );
   }
 }

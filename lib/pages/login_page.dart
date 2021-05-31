@@ -107,7 +107,7 @@ class IniciarSesion extends StatelessWidget {
         children: [
           ElevatedButton(
             onPressed: () {
-              Navigator.pushNamed(context, 'home');
+              Navigator.pushNamed(context, 'datos_extra');
             },
             child: Row(
               mainAxisAlignment: MainAxisAlignment.spaceAround,

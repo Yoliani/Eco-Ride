@@ -12,6 +12,12 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       theme: ThemeData(
         primarySwatch: Colors.green,
+        brightness: Brightness.light,
+      ),
+      darkTheme: ThemeData(
+        appBarTheme: AppBarTheme(color: Colors.green),
+        primarySwatch: Colors.green,
+        backgroundColor: Colors.black,
       ),
       title: 'EcoRide',
       debugShowCheckedModeBanner: false,
