@@ -24,6 +24,15 @@ class Menu extends StatelessWidget {
                   fontSize: 30,
                 ),
               ),
+              CircleAvatar(
+                radius: 40,
+                backgroundImage: NetworkImage(
+                    "https://dam.esquirelat.com/wp-content/uploads/2020/07/STANLEE.jpg"),
+              ),
+              Text('Stan Lee',
+                  style: TextStyle(
+                    color: Colors.white,
+                  )),
             ]),
           ),
           ListTile(

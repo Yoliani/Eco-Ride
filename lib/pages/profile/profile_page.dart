@@ -17,6 +17,8 @@ class _PerfilState extends State<Perfil> {
       body: SingleChildScrollView(
         child: Center(
           child: Column(
+            mainAxisAlignment: MainAxisAlignment.center,
+            crossAxisAlignment: CrossAxisAlignment.center,
             children: [
               SizedBox(height: 20),
               Container(
@@ -38,11 +40,19 @@ class _PerfilState extends State<Perfil> {
                   fontSize: 20,
                 ),
               ),
-              Text(
-                '+57 3189023234',
-                style: TextStyle(
-                  fontSize: 20,
-                ),
+              // Text(
+              //   '+57 3189023234',
+              //   style: TextStyle(
+              //     fontSize: 20,
+              //   ),
+              // ),
+              ListTile(
+                leading: Icon(Icons.remove_red_eye_outlined),
+                title: Text('Ver informacíon'),
+              ),
+              ListTile(
+                leading: Icon(Icons.edit),
+                title: Text('Editar informacíon'),
               ),
             ],
           ),

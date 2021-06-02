@@ -11,6 +11,7 @@ class Logo extends StatelessWidget {
       children: [
         Image(
           image: AssetImage('assets/logo.png'),
+          fit: BoxFit.contain,
         ),
         Text(
           'Eco Ride',
