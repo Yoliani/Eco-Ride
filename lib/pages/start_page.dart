@@ -27,6 +27,11 @@ class _StartPageState extends State<StartPage> {
         body: Container(
           child: Column(
             children: <Widget>[
+              //
+              SizedBox(
+                height: 20,
+              ),
+
               //Tarjetas
               CardSwiperBike(imageList: _imageList, swipersize: _swipersize),
               SizedBox(

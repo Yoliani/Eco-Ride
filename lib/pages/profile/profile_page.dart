@@ -34,12 +34,12 @@ class _PerfilState extends State<Perfil> {
                 'Stan Lee',
                 style: TextStyle(fontSize: 29, fontWeight: FontWeight.bold),
               ),
-              Text(
-                'Número de telefono',
-                style: TextStyle(
-                  fontSize: 20,
-                ),
-              ),
+              // Text(
+              //   'Número de telefono',
+              //   style: TextStyle(
+              //     fontSize: 20,
+              //   ),
+              // ),
               // Text(
               //   '+57 3189023234',
               //   style: TextStyle(

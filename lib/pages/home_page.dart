@@ -6,7 +6,7 @@ import 'package:flutter/material.dart';
 class HomePage extends StatelessWidget {
   HomePage({Key key}) : super(key: key);
 
-  final _style = new TextStyle(fontSize: 18);
+  final _style = new TextStyle(fontSize: 16);
   GlobalKey<ScaffoldState> _scaffoldKey = GlobalKey<ScaffoldState>();
   @override
   Widget build(BuildContext context) {
