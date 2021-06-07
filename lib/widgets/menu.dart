@@ -43,9 +43,9 @@ class Menu extends StatelessWidget {
             },
           ),
           ListTile(
-            leading: Icon(Icons.shopping_bag),
-            title: Text('Pedidos'),
-          ),
+              leading: Icon(Icons.shopping_bag),
+              title: Text('Pedidos'),
+              onTap: () => Navigator.popAndPushNamed(context, 'pedidos')),
           ListTile(
             leading: Icon(Icons.account_circle),
             title: Text('Perfil'),

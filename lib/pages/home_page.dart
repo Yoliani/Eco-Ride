@@ -140,7 +140,7 @@ class Promociones extends StatelessWidget {
                 ),
               ),
               title: Text(opt['nombre']),
-              subtitle: Text('Aqui va la descripcion'),
+              subtitle: Text(opt['descripcion']),
             ),
             Row(
               mainAxisAlignment: MainAxisAlignment.spaceEvenly,

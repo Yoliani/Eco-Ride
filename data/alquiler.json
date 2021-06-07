@@ -8,7 +8,9 @@
             "precio_alquiler" : "190.000",
             "precio_compra" : "190.000",
             "disponibilidad": "Esta disponible",
-            "imagen": "https://menorpago.com.co/wp-content/uploads/2020/04/bicicleta-gw-piranha-275-grupo-shimano-altus-9-vel-hidrulico-i.jpg"
+            "imagen": "https://menorpago.com.co/wp-content/uploads/2020/04/bicicleta-gw-piranha-275-grupo-shimano-altus-9-vel-hidrulico-i.jpg",
+            "descripcion": "Marco GW Piranha en aluminio rin 29. Peso 1870 gr. Suspensión GW 1.3 con bloqueo en aluminio y botellas magnesio con graducación al hombro rin 29 y recorrido de 100 mm. Grupo 100% Shimano Altus Hidráulico 27 v."
+        
         },
         {
             "nombre" : "Bicicleta MTB GW PIRANHA 7.3 – 9 vel",
@@ -17,7 +19,8 @@
             "precio_alquiler" : "190.000",
             "precio_compra" : "190.000",
             "disponibilidad": "Esta disponible",
-            "imagen": "https://menorpago.com.co/wp-content/uploads/2020/04/bicicleta-gw-piranha-275-grupo-shimano-altus-9-vel-hidrulico-i.jpg"
+            "imagen": "https://menorpago.com.co/wp-content/uploads/2020/04/bicicleta-gw-piranha-275-grupo-shimano-altus-9-vel-hidrulico-i.jpg",
+            "descripcion": "Marco GW Piranha en aluminio rin 29. Peso 1870 gr. Suspensión GW 1.3 con bloqueo en aluminio y botellas magnesio con graducación al hombro rin 29 y recorrido de 100 mm. Grupo 100% Shimano Altus Hidráulico 27 v."
         },
         {
             "nombre" : "Bicicleta MTB GW PIRANHA 7.3 – 9 vel",
@@ -26,7 +29,8 @@
             "precio_alquiler" : "190.000",
             "precio_compra" : "190.000",
             "disponibilidad": "Esta disponible",
-            "imagen": "https://menorpago.com.co/wp-content/uploads/2020/04/bicicleta-gw-piranha-275-grupo-shimano-altus-9-vel-hidrulico-i.jpg"
+            "imagen": "https://menorpago.com.co/wp-content/uploads/2020/04/bicicleta-gw-piranha-275-grupo-shimano-altus-9-vel-hidrulico-i.jpg",
+            "descripcion": "Marco GW Piranha en aluminio rin 29. Peso 1870 gr. Suspensión GW 1.3 con bloqueo en aluminio y botellas magnesio con graducación al hombro rin 29 y recorrido de 100 mm. Grupo 100% Shimano Altus Hidráulico 27 v."
         }
     ]
 }

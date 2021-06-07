@@ -1,6 +1,7 @@
 import 'package:eco_ride/pages/datos/datos_extra.dart';
 import 'package:eco_ride/pages/home_page.dart';
 import 'package:eco_ride/pages/login_page.dart';
+import 'package:eco_ride/pages/products/productos_page.dart';
 import 'package:eco_ride/pages/profile/profile_page.dart';
 import 'package:eco_ride/pages/recover_password_code.dart';
 import 'package:eco_ride/pages/recover_password_page.dart';
@@ -19,6 +20,7 @@ final rutas = <String, WidgetBuilder>{
   'datos_extra': (BuildContext context) => DatosExtra(),
   'settings': (BuildContext context) => Settings(),
   'perfil': (BuildContext context) => Perfil(),
+  'pedidos': (BuildContext context) => Products(),
 };
 
 Map<String, WidgetBuilder> getAppRoutes() {

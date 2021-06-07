@@ -39,6 +39,11 @@ class _SettingsState extends State<Settings> {
                 title: Text('Cambiar configuracion del perfil'),
                 //onTap: () => Navigator.popAndPushNamed(context, 'perfil'),
               ),
+              ListTile(
+                leading: Icon(Icons.payment_rounded),
+                title: Text('Agregar método de pago'),
+                //onTap: () => Navigator.popAndPushNamed(context, 'perfil'),
+              ),
             ],
           ),
         ),
